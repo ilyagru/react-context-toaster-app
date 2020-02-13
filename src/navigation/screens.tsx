@@ -7,7 +7,7 @@ import { useToaster, PortalContext, PortalContextProps } from '../toaster'
 
 export const HomeScreen = () => {
   const showToast = useToaster()
-  // Or even without our custom hook we can use the context directly,
+  // Or even without our custom hook we still can use the context directly,
   // showToast is typed and correct!
   // const { showToast } = useContext(PortalContext);
 
